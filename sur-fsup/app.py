@@ -141,3 +141,5 @@ def temp_start_end(start, end):
     # Return the JSON representation of the dictionary
     return jsonify(all_temps)
 
+if __name__ == "__main__":
+    app.run(debug=True)
